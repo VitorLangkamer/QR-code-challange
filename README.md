@@ -1,6 +1,6 @@
 # Frontend Mentor - QR Code Component
 
-![QR Code Component Preview](./design/desktop-preview.jpg)
+![QR Code Component Preview](preview.jpg)
 
 ## 🌟 Visão Geral
 
