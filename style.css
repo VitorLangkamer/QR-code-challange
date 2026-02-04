@@ -4,10 +4,11 @@
     --font-title: 'Outfit', sans-serif;
     --font-text: 'Outfit', sans-serif;
 
-    --color-title: hsl(218, 44%, 22%);
-    --color-text: hsl(216, 15%, 100%);
-    --color-bg: hsl(212, 45%, 89%);
-    --color-card: #fff;
+    --White: hsl(0, 0%, 100%);
+
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
 }
 
 * { 
@@ -18,44 +19,45 @@
 
 body { 
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .card {
-    width: 300px;
+    width: 320px;
+    max-width: 90%;
+    padding: 16px 16px 40px 16px;
+    background-color: var(--White);
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    background-color: var(--color-card);
-    padding: 16px 16px 40px 16px;  
 }
 
 .card-img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.card-content {
-    text-align: center;
-    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 24px;
 }
 
 .card-title {
+    font-family: var(--font-title);
     font-size: 22px;
     line-height: 120%;
     letter-spacing: 0px;
-    font-family: var(--font-title);
-    font-weight: 700;
+    text-align: center;
     margin-bottom: 16px;
-    color: var(--color-title);
+    font-weight: 700;
+    color: var(--Slate-900);
 }
 
-.card-text {
+.card-text { 
+    font-family: var(--font-text);
+    font-weight: 400;
     font-size: 15px;
     line-height: 140%;
     letter-spacing: 0.2px;
-    font-family: var(--font-text);
-    font-weight: 400;
-    color: var(--font-text);
+    text-align: center;
+    color: var(--Slate-500);
 }
