@@ -13,8 +13,8 @@ Este é meu projeto do desafio **QR Code Component** do [Frontend Mentor](https:
 
 ## 📸 Screenshot
 
-![](./sollutions/Desktop.png) - Desktop
-![](./sollutions/mobile.png) - Mobile
+![](./sollutions/Desktop.png)
+![](./sollutions/mobile.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
