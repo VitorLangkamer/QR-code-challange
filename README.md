@@ -89,7 +89,6 @@ Isso deixa o código mais limpo e fácil de manter!
 ## 🙏 Agradecimentos
 
 - **Frontend Mentor** - Pelos desafios práticos e realistas
-- **Claude** - Por me ensinar os conceitos ao invés de só dar as respostas
 - **Comunidade Frontend Mentor** - Pelo suporte e inspiração
 
 ## 👨‍💻 Autor
